@@ -13,7 +13,7 @@ const downshift = {
 }
 
 const renderBillList = props =>
-  render(BillList({...downshift, ...props})).  // error comes from this line, because of the render()
+  render(BillList({...downshift, ...props})).  
 
 const btn = wrapper => wrapper.queryByTitle("counter-text")
 
