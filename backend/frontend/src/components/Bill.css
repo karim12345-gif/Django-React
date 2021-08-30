@@ -1,0 +1,315 @@
+
+.bills-container {
+    padding: 50px;
+    box-shadow: 2px 5px 20px gray;
+    border-radius: 20px;
+    width: 770px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    height: 680px;
+    position: relative;
+    top: -20px;
+  }
+
+  
+
+
+
+.bill-time{
+  position: relative;
+  top: -9px;
+  background-color: transparent;
+  border: 2px solid red;
+  text-align: center;
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40px;
+
+
+}
+
+
+.lines-time{
+  position: relative;
+  left: 5px;
+  top: -7px;
+}
+
+
+.bill{
+  position: relative;
+  left: -250px;
+  top: -26px;
+
+}
+
+
+
+.time{
+  position: relative;
+  left: 190px;
+  top: -80px;
+
+}
+
+
+.title{
+  position: relative;
+  left: -168px;
+  top: -39px;
+}
+
+.increase{
+  position: relative;
+  left: -305px;
+  top: -115px;
+}
+
+
+.decrease{
+  position: relative;
+  left: -282px;
+  top: -136px;
+}
+
+.counter{
+  position: relative;
+  left: -261px;
+  top: -78px;
+  font-size: medium;
+
+}
+
+
+.price-total{
+  position: relative;
+  background-color: transparent;
+  border: 2px solid red;
+  text-align: center;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 161px;
+  top: -5px;
+
+
+}
+
+
+
+.price{
+  position: relative;
+  top: -160px;
+  left: 230px;
+}
+
+
+
+.total{
+  position: relative;
+  left: -300px;
+  top: -165px;  
+}
+
+.total-price{
+  position: relative;
+  left: -150px;
+  top: -205px;
+  font: bold;
+  
+}
+
+.given{
+  position: relative;
+  left: -265px;
+  top: -210px;
+
+}
+
+
+.given-price{
+  position: relative;
+  left: 220px;
+  top: -250px;
+}
+
+.lines{
+  position: relative;
+  left: 230px;
+  top: -50px;
+}
+
+.a{
+  position: relative;
+  left: 290px;
+  top: -200px;
+}
+
+.lines-taxes{
+  position: relative;
+  left: -30px;
+  top: -240px;
+}
+
+.gross{
+  position: relative;
+  left: -180px;
+  top: -270px;
+}
+
+.gross-price{
+  position: relative;
+  left: -180px;
+  top: -280px;
+  
+}
+
+
+
+.taxes{
+  position: relative;
+  left: -280px;
+  top: -345px;
+
+}
+
+
+.percent{
+  position: relative;
+  left: -280px;
+  top: -359px;
+
+}
+
+.ust{
+  position: relative;
+  left: 190px;
+  top: -425px;
+}
+
+
+.ust-percent{
+  position: relative;
+  left: 190px;
+  top: -440px;
+
+}
+
+
+.net{
+  position: relative;
+  left: -30px;
+  top: -505px;
+}
+
+.net-result{
+  position: relative;
+  left: -30px;
+  top: -516px;
+
+}
+
+.terminal{
+  margin-left: 35%;
+  position: relative;
+  left: 16px;
+  padding: 1px 1px;       /* CC padding */
+  width: 100%;
+  line-height: 0.2em;
+  position: relative;
+  font-size: medium;
+  font-weight: bold;
+
+
+}
+
+
+.TSE-Transaktion {
+  position: relative;
+  font-size: small;
+  left: 190px;
+  top: -10px;
+  line-height: .5em;
+
+}
+
+.right-side{
+  position: relative;
+  font-size: small;
+  left: 340px;
+  top: -180px;
+  line-height: .5em;
+
+}
+
+.de11{
+  position: relative;
+  font-size: medium;
+  left: 247px;
+  top: -180px;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+.main-button{
+  display:block;
+  margin:0;
+  font-size: 15px;
+  padding:0.3em 1.2em;
+  border:0.16em solid red;
+  border-radius:3em;
+  box-sizing: border-box;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:black;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  transition: all 0.2s;
+  cursor: pointer;
+  float: right;
+  padding: 10px;
+  width: 20%;
+  margin-top: 10px;
+  margin-right: 40%;
+  position: relative;
+  top: -20px;
+  left: -10px;
+ 
+}
+
+
+
+
+
+.main-button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.main-button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.main-button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+
+
+
