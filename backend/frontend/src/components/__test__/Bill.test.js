@@ -4,17 +4,46 @@ import Adapter from 'enzyme-adapter-react-16'
 import BillList from "../BillList";
 import * as React from "react";
 
+
+
+
+//Wrapper 
+const downshift = {
+  isActive: true
+}
+
+const renderBillList = props =>
+  render(BillList({...downshift, ...props})).  // error comes from this line, because of the render()
+
+const btn = wrapper => wrapper.queryByTitle("counter-text")
+
+  // will display 1 by default because there will be already an item when the page renders
+
+
+  test("display counter text", () => {
+    const wrapper = renderBillList({isActive: true})
+    
+  
+    expect(btn(wrapper)).toBe(1)
+    fireEvent.click(btn)
+  });
+
+
+
+
+
 // will display 1 by default because there will be already an item when the page renders
 
-configure({ adapter: new Adapter() });
-it("display counter text", () => {
-  const { queryByTitle } = render(<BillList />);
+// configure({ adapter: new Adapter() });
+// it("display counter text", () => {
+//   const { queryByTitle } = render(<BillList />);
 
-  const btn = queryByTitle("counter-text");
+//   const btn = queryByTitle("counter-text");
 
-  expect(btn.innerHTML).toBe(0);
-  fireEvent.click(btn);
-});
+//   expect(btn.innerHTML).toBe(0);
+//   fireEvent.click(btn);
+// });
+
 
 // Button increments the price value by +1
 it("increment counter", () => {
@@ -34,3 +63,7 @@ it("decrement counter", () => {
   expect(btnDecrement.innerHTML).toBe(-1);
   fireEvent.click(btnDecrement);
 });
+
+
+
+
