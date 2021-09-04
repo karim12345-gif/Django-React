@@ -6,7 +6,7 @@
 ******
 ******
  
-                                                    Step 1: Backend using Django
+                                               Step 1: Backend using Django
 
 
  >## <h1>Installations ✅ </h1>
@@ -43,7 +43,7 @@
 ******
 ******
 
-                                                      Step 2: Frontend using React
+                                              Step 2: Frontend using React
 
 
 
