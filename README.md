@@ -138,3 +138,14 @@ Here i imported GET_ITEMS,INCREASE_QUANTITY and DECREASE_QUANTITY from the types
 
 
 
+
+****
+****
+>## <h1>Start the App:✅ </h1>
+1) To start the app, you have to run both the backend and frontend concurrently.
+2) First off, split the screen into two on the left cd to the backend and type this command ---> python3 manage.py runserver
+3) second, on the right screen cd to backend again and to frontend afterwards, now enter this command to start the react.js ---> npm start
+
+
+
+
