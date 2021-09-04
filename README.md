@@ -119,7 +119,7 @@ Here i imported GET_ITEMS,INCREASE_QUANTITY and DECREASE_QUANTITY from the types
 
 10) Now head to actions directory and create itemsactions.js, this is where you import your objects that you have created in types and also **axios** which will help you fetch your API data from the URL that you have used in Django. After you create the function you have to dispatch as an argument and afterwards use try catch fro catching the response from our API. If the API sends the response without errors, it will be caught in try and data will be passed to the payload and if there is any errors they will be caught in catch and response will be passed to the payload.
 11) Now you can create components, Item and Billing in component directory.
-12) Now we have to connect method from react-redux and getItems function from the itemsAction file. Then you have to create **mapStateToProps** method that contains the state as arguments and items object and passing that **mapStateProps and itemUsers method to connect method.
+12) Now we have to connect method from react-redux and getItems function from the itemsAction file. Then you have to create **mapStateToProps** method that contains the state as arguments and items object and passing that **mapStateProps** and itemUsers method to connect method.
 13) Afterwards in Items you can create the UI and the button, the button will have items.id that will show the id of that item.
 14) Now from the Billing page you can dispatch and connect again, to use the **items**, using items will give you access to use the API and display it on the user interface, now to catch the id from the item page, we have to use something called useParams this will basically catch that id passed from our items component and display that item id.
 
