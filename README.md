@@ -130,11 +130,13 @@ Here i imported GET_ITEMS,INCREASE_QUANTITY and DECREASE_QUANTITY from the types
 >## <h1>Diagrams ✅ </h1>
 1) I used these diagrams to make it easy for myself to understand the UI and how/where to pass the API in the user interface/Frontend. 
 
+![Geeting started](Billing.png)
+
 ![Geeting started](HomePage.png) 
 
 
 
-![Geeting started](Billing.png)
+
 
 
 
